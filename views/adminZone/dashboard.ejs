@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard1</title>
+
+    <!-- =============================================css link================================================== -->
+    <link rel="stylesheet" href="/style_admin/dashboard.css" />
+
+    <!-- ==================================================font awesome link========================================== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ======================================google fonts====================================== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Dancing+Script&family=Fascinate&family=Lato:ital,wght@1,300&family=Lobster&family=Orelega+One&family=Oswald:wght@300&family=Poppins:wght@100&family=Roboto:wght@300&family=Ubuntu+Mono&family=Yanone+Kaffeesatz:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container1">
+      <!-- =================================================sidebar========================================= -->
+      <div class="sidebar">
+        <header>Admin Zone</header>
+        <ul>
+          <li>
+            <a href="/dashboard"
+              ><i class="fas fa-qrcode"></i> Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="/contact_management"
+              ><i class="fa-solid fa-address-book"></i> Contact Management</a
+            >
+          </li>
+          <li>
+            <a href="/affiliate_member"><i class="fa-solid fa-person"></i> Affiliate Members</a>
+          </li>
+          <li>
+            <a href="/return_product"
+              ><i class="fa-solid fa-rotate-left"></i> Return Product</a
+            >
+          </li>
+          <li>
+            <a href="/product_management"
+              ><i class="fas fa-stream"></i> Product Management</a
+            >
+          </li>
+          <li>
+            <a href="add_products"><i class="fa-solid fa-plus"></i> Add Products</a>
+          </li>
+          <!-- <li><a href="#" ><i class="fa-solid fa-arrow-down-short-wide"></i> Order Product Management</a></li> -->
+          <li>
+            <a href="/manage_password"><i class="fa-solid fa-lock"></i> Manage Password</a>
+          </li>
+          <li>
+            <a href="/logout"
+              ><i class="fa-solid fa-right-from-bracket"></i> LogOut</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- =============================================main dashboard================================================= -->
+    <div class="main">
+      <!-- ==============================navbar================================================== -->
+      <nav class="navbar">
+        <h3>Pages / Dashboard</h3>
+        <br />
+        <h1>Dashboard</h1>
+        <input type="text" placeholder="Type here..." class="inp" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+        <a href="#">Log In</a>
+
+        <i class="fa-solid fa-gear"></i>
+        <i class="fa-solid fa-bell"></i>
+      </nav>
+
+      <!-- =======================================card section======================================== -->
+
+      <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+      </div>
+
+      <div class="container cont1">
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+      </div>
+  
+    </div>
+
+   
+    <!-- ==============================================font awesome script link======================================= -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Return</title>
+<link rel="stylesheet" href="/style_admin/return.css">
+<style>
+        .box {
+            margin-top: 120px;
+            height: 400px;
+            width: 400px;
+            border-radius: 6px;
+            background-color: rgba(255, 255, 255, 0.29);
+        }
+        
+        .c1 {
+            margin-left: 0px;
+            border-radius: 4px;
+            background-color: hsl(0, 0%, 100%);
+            width: 70%;
+        }
+        
+        .c2 {
+            margin-left: 0px;
+            border-radius: 4px;
+            background-color: hsl(0, 0%, 100%);
+            width: 70%;
+        }
+        
+        .c3 {
+            margin-right: 255px;
+            color: white;
+        }
+        
+        .c4 {
+            margin-right: 190px;
+            color: white;
+        }
+        
+        .c5 {
+            border-color: black;
+            box-shadow: inset;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: green;
+            color: white;
+        }
+        
+        .c6 {
+            margin-right: 150px;
+            color: white;
+        }
+        
+        .c7 {
+            background-color: hsl(0, 0%, 100%);
+        }
+        
+        .h1 {
+            color: skyblue;
+        }
+        
+        #i1 {
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 4px;
+        }
+        
+        #i1 {
+            background-image: url(i4.jpg);
+            background-size: cover;
+        }
+    </style>               
+</style>
+</head>
+<body>
+<div class="container1">
+    <div class="sidebar">
+        <header>Admin Zone</header>
+        <ul>
+            <li><a href="/dashboard" ><i class="fas fa-qrcode"></i> Dashboard</a></li>
+            <li><a href="/contact_management" ><i class="fa-solid fa-address-book"></i> Contact Management</a></li>
+            <li><a href="/affiliate_member" ><i class="fa-solid fa-person"></i> Affiliate Members</a></li>
+            <li><a href="return_product" ><i class="fa-solid fa-rotate-left"></i> Return Product</a></li>
+            <li><a href="/product_management" ><i class="fas fa-stream"></i> Product Management</a></li>
+            <li><a href="/add_products" ><i class="fa-solid fa-plus"></i> Add Products</a></li>
+            <!-- <li><a href="#" ><i class="fa-solid fa-arrow-down-short-wide"></i> Order Product Management</a></li> -->
+            <li><a href="/manage_password" ><i class="fa-solid fa-lock"></i> Manage Password</a></li>
+            <li><a href="/logout" ><i class="fa-solid fa-right-from-bracket"></i> LogOut</a></li>
+        </ul>
+    </div>
+<div class="main">
+<center>
+  <body id="i1">
+        
+                   <form class="box" action="/aproducts" method="post" enctype="multipart/form-data"><br><br>
+                    <!-- enctype hum log use krte hai hejne ke liye  -->
+                    
+
+                       <h2 class="h1">Add product</h2>
+                       <label for="Product"><b class="c4">Product Name</b></label><br>
+                       <input class="c1" name="pname" type="text" placeholder="Product name" required> <br><br>
+           
+                       <label for="Price"><b class="c3">Price</b></label><br>
+                       <input class="c2" type="number"  name="price"  placeholder="Product price" required> <br><br>
+                       <label for="photo"><b class="c3"> photo </b></label><br>
+                       <input class="c2" type="file"  name="ppic"  placeholder="Product price" required multiple /> <br><br>
+           
+           
+                       <label for="Mobiles ">Category</label>
+                       <select class="c7" id="Category" name="pcat">
+                         <option value="Sumsung">Sumsung</option>
+                         <option value="iphone">iPhone</option>
+                         <option value="Redmi">Redmi</option>
+                         <option value="Realme">Realme</option>
+                       </select><br><br>
+           
+           
+                       <label for="Product description"><b class="c6">Product description</b></label><br>
+                       <textarea  id="i2" cols="30" name="pdesc"  rows="4" placeholder="Write here"></textarea>
+                       <br><br>
+           
+                       <button class="c5">Add Product</button>
+           
+                   </form>
+
+                   
+
+
+
+               
+</center>
+</div>
+</div>
+</body>
+</html>

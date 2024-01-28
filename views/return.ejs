@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        
+        .main-head {
+            height: 150px;
+            background: #FFF;
+        }
+        
+        .sidenav {
+            height: 100%;
+            background-color: blue;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        
+        .main {
+            padding: 0px 10px;
+        }
+        
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+        }
+        
+        @media screen and (max-width: 450px) {
+            .login-form {
+                margin-top: 10%;
+            }
+            .register-form {
+                margin-top: 10%;
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            .main {
+                margin-left: 40%;
+            }
+            .sidenav {
+                width: 40%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+            }
+            .login-form {
+                margin-top: 80%;
+            }
+            .register-form {
+                margin-top: 20%;
+            }
+        }
+        
+        .login-main-text {
+            margin-top: 20%;
+            padding: 60px;
+            color: #fff;
+        }
+        
+        .login-main-text h2 {
+            font-weight: 300;
+        }
+        
+        .btn-black {
+            background-color: black !important;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <div class="login-main-text">
+            <h2>Return<br> Member Page</h2>
+            <p>Please enter your details for return products.</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-md-6 col-sm-12">
+            <div class="login-form" style="position: absolute; top:0px; margin-top: 50px;">
+                <form action="/return_pro" method="post">
+                    <div class="form-group">
+                        <label>Product id:</label>
+                        <input type="text" name="pid" class="form-control" placeholder="enter here">
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" name="email" class="form-control" placeholder="E-mail">
+                    </div>
+                    <label for="">What Issue</label>
+                    <select class="c7" id="Category" name="pissue">
+                      <option value="Product missing">Product missing</option>
+                      <option value="Technical issue">Technical issue</option>
+                      <option value="Wrong product delever ">Wrong product delever</option>
+                      <!-- <option value="Realme"></option> -->
+                    </select><br><br>
+                    <div class="form-group">
+                        <label>Comment</label><br>
+                        <textarea name="comment" id="" cols="30" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-black">Submit</button>
+                    <!-- <button type="submit" class="btn btn-secondary">Register</button> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

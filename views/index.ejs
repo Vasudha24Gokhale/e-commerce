@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop </title>
+    <!-- style css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jvascript page link  -->
+    <script src="index.js" defer></script>
+    <!-- bootstrap cdn link  -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- font awesome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+<!-- ======================================testomonial============================================================= -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!-- =================footer============================= -->
+
+  
+
+</head>
+<body>
+    <!-- header section-->
+   
+   
+<%-include('header')-%>
+    <!-- slider -->
+
+   <div class="slider-box">
+        <div id="slider">
+            <img src="./images/banner1.jpg" alt="">
+            <img src="./images/banner2.png" alt="">
+            <img src="./images/banner3.jpg" alt="">
+            <img src="./images/banner4.jpg" alt="">
+        </div>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+        </div>
+    </div>
+
+    <!-- ====================================icon section start================================================ -->
+    
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free& <br>fast shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100% secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns Policy</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+<div class="container">
+     <h2 id="features"  style="text-align: center;">Our Featured Products </h2>
+     <br>
+     <br>
+
+  
+
+<!-- =============================================testomonial===================================================-->
+<div class="swiper-container two">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="./images/featured1.jpeg" style="height: 300px; width: 200px;" alt="slide 1">
+                 <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+              </div>
+      </div> 
+    </div>
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="./images/featured2.jpeg"style="height: 300px; width: 200px;"  alt="slide 2">
+        <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+        </div>
+
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="./images/featured3.jpeg"style="height: 300px; width: 200px;" alt="slide 3">
+                  <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+              </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="images/featured4.jpeg"style="height: 300px; width: 200px;" alt="slide 4">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+              </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="./images/featured5.jpeg"style="height: 300px; width: 200px;" alt="slide 5">
+               <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+              </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slider-image">
+        <img src="./images/featured6.jpeg"style="height: 300px; width: 200px;" alt="slide 5">
+        <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa-solid fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-solid fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart "><i class="fa fa-shopping-cart"></i></button>
+        </div>
+
+      </div>
+    </div>
+    <!-- Add Pagination -->
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+</div>
+  
+
+  <!-- ============================================Add More products============================================ -->
+  <div class="container">
+    <h2 style="text-align: center;">Our Products </h2>
+    <br>
+    <br>
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured7.jpeg" style="height: 400px; width:400px;" alt="">
+            
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featured7text">Iphone 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featured7price">$1400</h3>
+                
+        
+                
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured8.jpeg"style="height: 400px; width:400px;" class="featured8" alt="">
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featured8text">Iphone 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featured8price">$1400</h3>
+             
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured9.jpeg"style="height: 400px; width:400px;"class="featured9" alt="">
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featured9text">Iphone 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featured9price">$1400</h3>
+
+               
+            </div>
+        </div>
+    </div>
+        
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured1.jpeg"style="height: 400px; width:400px;" class="featured1" alt="">
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featuredtext">redmi 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featuredprice">$1400</h3>
+              
+            </div>
+        </div>
+    </div>
+        
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured6.jpeg" class="featured6" style="height: 400px; width:400px;"alt="">
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featured6text">Iphone 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featured6price ">$1400</h3>
+              
+            </div>
+        </div>
+    </div>
+        
+    <div class="card">
+        <div class="imgBx">
+            <img src="./images/featured5.jpeg"style="height: 400px; width:400px;" class="featured5" alt="">
+
+        </div>
+        <div class="content">
+            <div class="productName">
+                <h3 class="featured5text">Iphone 11</h3>
+            </div>
+            <div class="price_rating">
+                <h3 class="featured5price">$1400</h3>
+               
+            </div>
+        </div>
+    </div>
+        
+
+    
+    </div>
+    <button class="productbutton "><a href="/ourproduct">...See More Items</a> </button>
+<!-- ==========================================review================================================================= -->
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider class1">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Vanshika</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Nilesh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Vinay</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>laljeet</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Abhishek</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+<!-- =================================================newsletter================================================= -->
+<form action="/subscribe" method="post">
+<div class="wrapper">
+    <input type="checkbox" id="click">
+    <label class="btn-1" for="click">Subscribe</label>
+    <div class="field">
+       <input type="text" name="email" placeholder="Email Address">
+       <button type="submit" style="background-color: blue;" class="btn btn-black">Submit</button>
+    </div>
+ </div>
+</form>
+
+<!-- ====================================================footer==================================================== -->
+<%-include('footer')-%>   
+
+    
+  <!-- =======================================script================================================================= -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

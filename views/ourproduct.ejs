@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurProduct</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<!-- css link  -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+    <%-include('header')-%>
+    <!-- <div class="container page-top">
+        <h2 style="font-size: 42px; text-align:center;">Our Trending Products</h2>
+
+
+
+        <div class="row">
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="https://www.amazon.in/Redmi-Horizon-Qualcomm%C2%AE-SnapdragonTM-Included/dp/B09QSBXK96" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured4.jpeg" class="zoom img-fluid "  alt="">
+                   
+                </a>
+                <h3 class="featured4our">Iphone11:-$1400</h3>
+                <button class="featured4btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured2.jpeg"  class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured2.jpeg" class="zoom img-fluid"  alt="">
+                </a>
+                <h3 class="featured2our">Iphone11:-$1400</h3>
+                <button class="featured2btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured3.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured3.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured3our">Redmi:-$1000</h3>
+                <button class="featured3btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured4.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured4.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured4our">Iphone8:-$1000</h3>
+                <button class="featured4btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured5.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured5.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured5our">Iphone:-$800</h3>
+                <button class="featured5btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured6.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured6.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured6our">Iphone:-$1000</h3>
+                <button class="featured6btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured7.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured12.jpeg" style="height: 300px;width:300px" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured7our">Redmi:-$1000</h3>
+                <button class="featured7btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured12.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured12.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured12our">Redmi:-$1000</h3>
+                <button class="featured12btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured10.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured10.jpeg" class="zoom img-fluid "  alt="">
+                </a>
+                <h3 class="featured10our">Samsung:-$8000</h3>
+                <button class="featured10btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured13.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured13.jpeg" class="zoom img-fluid "  alt="">
+                    <h3 class="featured13our">Redmi:-$1000</h3>
+                    <button class="featured13btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+            
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured14.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured14.jpeg" class="zoom img-fluid "  alt="">
+                    <h3 class="featured14our">Samsung:-$1000</h3>
+                    <button class="featured14btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="./images/featured11.jpeg" class="fancybox" rel="ligthbox">
+                    <img  src="./images/featured11.jpeg" class="zoom img-fluid "  alt="">
+
+                </a>
+                <h3 class="featured11our">Realme:-$1000</h3>
+                <button class="featured11btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+            
+           
+           
+       </div>
+
+     
+      
+
+    </div>
+ -->
+ <div class="container">
+    <h2 style="text-align: center; font-size:25px;height: 50px; ">Our Latest Products</h2>
+
+  <div class="row">
+<% for(var i=0;i<data.length;i++) 
+{
+%>
+   <div class="col-md-4">
+       <figure class="card card-product-grid card-lg">
+           <a href="#" class="img-wrap" data-abc="true"><img src="<%= data[i].ppic %>" id="img<%= (i+1) %>" class="img"></a>
+           <figcaption class="info-wrap">
+                      <div class="row">
+
+                          <div class="col-md-8">
+
+                              <a href="#" class="title" data-abc="true" id="p<%= (i+1) %>"> <%= data[i].pname %> </a>
+                              
+                          </div>
+
+                          <div class="col-md-4">
+
+                              <div class="rating text-right">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  
+                              </div>
+
+                              
+                              
+                          </div>
+                          
+                      </div>
+
+                   
+                   
+           </figcaption>
+           <div class="bottom-wrap">
+               <a href="/buynow" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+               <div class="price-wrap">
+                   <span class="price h5"> $<%= data[i].price %> </span> <br> <small class="text-success">Free shipping</small>
+               </div>
+           </div> 
+       </figure>
+   </div>
+<% } %>
+</div>
+
+ </div>
+
+
+ <div class="container">
+  	<h2 style="text-align: center; font-size:25px;height: 50px; ">Our Products</h2>
+
+    <div class="row">
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="#" class="img-wrap" data-abc="true"><img src="./images/featured1.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Redmi-11</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="#" class="img-wrap" data-abc="true"><img src="./images/featured2.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Iphone-11 </a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow2" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="#" class="img-wrap" data-abc="true"><img src="images/featured11.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Realme- 5GB RAM</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow3" class="btn  btn-primary float-right" data-abc="true"> Buy now <i class="fa-solid fa-arrow-right"></i></a>
+                 <div class="price-wrap">
+                     <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="#" class="img-wrap" data-abc="true"><img src="./images/featured3.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true"> Redmi-10</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow" class="btn  btn-primary float-right" data-abc="true"> Buy now <i class="fa-solid fa-arrow-right"></i></a>
+                 <div class="price-wrap">
+                     <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="buynow5.html" class="img-wrap" data-abc="true"><img src="./images/featured4.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Iphone10</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+ 
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow5" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$399</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="buynow6.html" class="img-wrap" data-abc="true"><img src="./images/featured4.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Iphone11</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow6" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i></a>
+                 <div class="price-wrap">
+                     <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="#" class="img-wrap" data-abc="true"><img src="./images/featured12.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Remi10s</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow7" class="btn  btn-primary float-right" data-abc="true"> Buy Now</a>       <i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="buynow8.html" class="img-wrap" data-abc="true"><img src="./all image/sumsungA53/1.jpg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">SamsungA53</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow8" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+     <div class="col-md-4">
+         <figure class="card card-product-grid card-lg">
+             <a href="buynow9.html" class="img-wrap" data-abc="true"><img src="./images/featured15.jpeg"></a>
+             <figcaption class="info-wrap">
+                        <div class="row">
+ 
+                            <div class="col-md-8">
+ 
+                                <a href="#" class="title" data-abc="true">Realme</a>
+                                
+                            </div>
+ 
+                            <div class="col-md-4">
+ 
+                                <div class="rating text-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                
+                                    
+                                    
+                                </div>
+ 
+                                
+                                
+                            </div>
+                            
+                        </div>
+ 
+                     
+                     
+             </figcaption>
+             <div class="bottom-wrap">
+                 <a href="/buynow9" class="btn  btn-primary float-right" data-abc="true"> Buy now<i class="fa-solid fa-arrow-right"></i> </a>
+                 <div class="price-wrap">
+                     <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small>
+                 </div>
+             </div> 
+         </figure>
+     </div>
+ 
+ 
+ </div>
+   </div>
+     
+   <%-include('footer')-%>
+
+    <script src="index.js"></script>
+</body>
+</html>
